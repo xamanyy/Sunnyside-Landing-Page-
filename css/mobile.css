@@ -1,0 +1,294 @@
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+/* Menu */
+
+.need{
+    visibility:visible;
+    position: fixed;
+    visibility:visible;
+    width: 54px;
+    height: 50px;
+    background: hsl(0, 0%, 100%);
+    top: 15%;
+    left: 84%;
+    z-index: 5;
+    transform:skew(0 , -50deg)
+}
+
+
+.menu-list{
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  height: 100%;
+  flex-direction:column;
+  height:350px;
+  width: 439px;
+  margin:0 auto;
+  background: hsl(0, 0%, 100%);
+  z-index: 5;
+  position:fixed;
+  top: 16%;
+  visibility: visible;
+}
+
+.menu-content{
+  color:hsl(210, 4%, 67%);
+  font-size:22px;
+}
+
+
+.menu-cta {
+  cursor: pointer;
+  background-color: hsl(51, 100%, 49%);
+  height: 52px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 12px;
+  color:hsl(0, 0%, 0%);
+  font-family: 'Fraunces',
+  serif;
+}
+
+  /* HERO */
+
+.main img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+
+nav{
+  display:none;
+}
+
+.logo {
+  margin-left: 32px;
+}
+
+.main-text {
+  font-size: 40px;
+}
+
+
+  .row_1 {
+    height: 100%;
+    flex-direction:column-reverse;
+  }
+  .row_3{
+    height: 100%;
+    flex-direction:column;
+  }
+  .row_2{
+      height: 100%;
+    flex-direction:column;
+  }
+
+/* LEFT RIGHT */
+
+  .right {
+    height: 100%;
+    width: 100vw;
+  }
+
+  .right img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .left {
+    width: 100vw;
+    background: hsl(0, 0%, 100%);
+    height: 72vh;
+  }
+
+/* CTA */
+
+  .right-cta {
+    height: 100%;
+    width: 100vw;
+  }
+
+  .right-cta img {
+    height: 95vh;
+    width: 100%;
+    margin: -4px;
+    object-fit: cover;
+  }
+  .left-cta img {
+    height: 95vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .left-cta {
+    width: 100vw;
+  }
+
+  /* BT */
+
+  .right-bt {
+    height: 100%;
+    width: 100vw;
+  }
+
+  .right-bt img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .left-bt {
+    width: 100vw;
+    background: hsl(0, 0%, 100%);
+    height:72vh;
+  }
+
+
+/* ROW 1 */
+
+.content-row-1 {
+  width: 360px;
+}
+
+.content-row-1 h1 {
+  margin-top: 75px;
+  text-align: center;
+  font-size: 38px;
+  font-family: 'Fraunces',
+    serif;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+}
+
+.content-row-1 p {
+  font-size: 23px;
+  text-align: center;
+  width: 410px;
+  margin-top: 16px;
+  line-height: 1.4;
+  margin-bottom: 24px;
+}
+
+.content-row-1 h4 {
+  height: 100%;
+  width: 360px;
+  text-align: center;
+  font-family: 'Fraunces',
+    serif;
+  font-size: 22px;
+  margin-top: 24px;
+  text-decoration: underline;
+  text-decoration-color: hsl(7, 99%, 70%);
+}
+
+
+/* ROW 2 */
+
+
+.content-row-2 {
+  width: 360px;
+}
+
+.content-row-2 h1 {
+ margin-top:75px;
+  text-align: center;
+  font-size:38px;
+  font-family: 'Fraunces',
+    serif;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+}
+
+.content-row-2 p {
+  font-size: 23px;
+  text-align: center;
+  width: 390px;
+  margin-top: 16px;
+  line-height: 1.4;
+  margin-bottom: 24px;
+}
+
+.content-row-2 h4 {
+  height: 100%;
+  width: 360px;
+  text-align: center;
+  font-family: 'Fraunces',
+    serif;
+  font-size: 22px;
+  margin-top: 24px;
+  text-decoration: underline;
+  text-decoration-color: hsl(7, 99%, 70%);
+}
+.left-cta h1 {
+  font-size: 32px;
+  left: 26%;
+  font-weight: 900;
+}
+
+.right-cta h1 {
+  font-size: 30px;
+  left: 30%;
+  font-weight: 900;
+}
+
+.left-cta p {
+  top: 73%;
+  left: 10%;
+  font-weight: 500;
+  font-size: 20px;
+  color: hsl(167, 40%, 24%);
+}
+
+.right-cta p {
+  top: 73%;
+  left: 14%;
+  width: 100%;
+  max-width: 360px;
+  font-weight: 500;
+  font-size: 20px;
+  color: hsl(167, 40%, 24%);
+}
+.testimonials {
+  height: 100%;
+}
+
+.hall{
+  flex-direction:column;
+
+}
+.x,
+.y,
+.z {
+  padding: 5px;
+}
+
+.holder {
+  padding-top: 80px;
+  padding-bottom: 20PX;
+}
+
+.photo{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.ham{
+  visibility: visible;
+  cursor: pointer;
+}
+
+.menu-cta:hover{
+  background: rgba(171, 170, 170, 0.163);
+
+}
+
+}
+
