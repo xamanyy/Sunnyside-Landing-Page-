@@ -5,6 +5,7 @@
 /* Menu */
 
 .need{
+  display:block;
     visibility:visible;
     position: fixed;
     visibility:visible;
